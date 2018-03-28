@@ -30,7 +30,7 @@ public class Book extends Item{
 
     @Override
     public String toString() {
-        return "Book " + "author " + author + ", editur " + editura + ",year " + this.year ;
+        return "Book " + name + " author " + author + ", editura " + editura + ",year " + this.year ;
     }
     
      
